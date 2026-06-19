@@ -8,6 +8,11 @@ This simulator is built using a `scikit-learn` Decision Tree. This ensures that 
 - **Decision Tree Model**: Uses a straightforward Decision Tree algorithm (max depth of 4) to ensure all outcomes are simple and fully explainable to the applicant.
 - **Indian Market Context**: Evaluates applications based on relevant factors like CIBIL scores and Rupee (₹) asset values.
 
+## How It Works
+Here is the visual representation of the exact logical rules the model learns to evaluate applications:
+
+![Decision Tree](tree.png)
+
 ## How to Run Locally
 
 1. Install the required Python packages:
